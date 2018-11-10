@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Spicy+Rice" rel="stylesheet">
+</head>
+
+<body>
+    <h1>play rock paper scissors</h1>
+
+    <div class="select">
+
+        <h3>select:</h3>
+
+        <img data-option="paper" class="first" src="imgs/paper.png" alt="" title="paper">
+
+        <img data-option="rock" src="imgs/rock.jpg" alt="" title="rock">
+
+        <img data-option="scissors" src="imgs/scissors.jpg" alt="" title="scissors">
+
+    </div>
+
+    <button class="start">Let's play!</button>
+
+    <div class="panel-left">
+        <h3>score</h3>
+        <p>you: <span data-summary="your-choice"></span></p>
+        <p>opponent: <span data-summary="ai-choice"></span></p>
+        <h2>winner: <span data-summary="who-win"></span></h2>
+    </div>
+
+    <div class="panel-right">
+        <h3>Current results</h3>
+        <p class="numbers">number of games: <span>0</span></p>
+        <p class="wins">winnings: <span>0</span></p>
+        <p class="losses">losers: <span>0</span></p>
+        <p class="draws">draws: <span>0</span></p>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
