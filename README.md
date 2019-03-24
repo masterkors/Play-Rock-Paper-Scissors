@@ -1,5 +1,5 @@
 # Play-Rock-Paper-Scissors
-Demo: https://masterkors.github.io/Play-Rock-Paper-Scissors/
+Your site is published at https://usernamekors.github.io/Play-Rock-Paper-Scissors/
 
 History
 
